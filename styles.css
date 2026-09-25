@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.anh-img {
+  display: block;
+  width: 100px;
+  margin: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+  line-height: 1.6;
+}
+.header-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 40px 20px 100px 20px;
+}
+
+.top-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.top-icon {
+  width: 55px;
+  height: 55px;
+  background-color: #4285f4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.main-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 8px;
+  text-align: center;
+}
+.description {
+  max-width: 750px;
+  margin: 0 auto;
+  font-size: 13.5px;
+  color: #333333;
+  line-height: 1.6;
+}
+.team-section {
+  background-color: #f2f2f2;
+  padding-bottom: 60px;
+  width: 100%;
+}
+.team-container {
+  max-width: 1050px;
+  margin: -80px auto 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px;
+  gap: 50px 20px;
+}
+
+.team-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.avatar-wrapper {
+  margin-bottom: 15px;
+}
+
+.avatar-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  background-color: #dddddd;
+}
+.role {
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 6px;
+  display: block;
+  text-transform: lowercase;
+}
+.member-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.member-bio {
+  font-size: 12.5px;
+  color: #666666;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+@media (max-width: 850px) {
+  .team-container {
+    flex-wrap: wrap;
+  }
+
+  .team-card {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 480px) {
+  .team-card {
+    flex: 0 0 100%;
+  }
+}
+.avatar-img:hover {
+  border: 3px solid #ff0000;
+  cursor: pointer;
+}
