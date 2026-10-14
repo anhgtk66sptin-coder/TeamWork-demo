@@ -1,0 +1,635 @@
+/* ==========================
+   RESET
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Segoe UI",sans-serif;
+}
+
+
+
+/* ==========================
+   COLOR
+========================== */
+
+:root{
+
+    --pink:#ffd6e7;
+    --pink-dark:#ff8fb8;
+    --blue:#a9ddff;
+
+    --white:rgba(255,255,255,.9);
+
+    --text:#333;
+
+    --shadow:
+    0 15px 35px rgba(0,0,0,.15);
+
+}
+
+
+
+
+/* DARK MODE */
+
+.dark{
+
+    --pink:#202b35;
+
+    --pink-dark:#1976d2;
+
+    --blue:#263238;
+
+    --white:rgba(40,40,40,.9);
+
+    --text:#fff;
+
+}
+
+
+
+
+
+/* ==========================
+   BODY
+========================== */
+
+
+body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+        135deg,
+        var(--pink),
+        var(--blue)
+    );
+
+
+    color:var(--text);
+
+    transition:.5s;
+
+}
+
+
+
+
+
+/* ==========================
+   HEADER
+========================== */
+
+
+header{
+
+    width:100%;
+
+    padding:20px 8%;
+
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+
+
+    background:
+    rgba(255,255,255,.65);
+
+
+    backdrop-filter:blur(15px);
+
+
+    position:sticky;
+
+    top:0;
+
+    z-index:100;
+
+}
+
+
+
+
+
+.dark header{
+
+    background:
+    rgba(20,20,20,.75);
+
+}
+
+
+
+
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:#e75480;
+
+}
+
+
+
+.logo i{
+
+    color:#2196f3;
+
+    margin-right:8px;
+
+}
+
+
+
+
+
+nav{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+
+
+
+nav a{
+
+    text-decoration:none;
+
+    color:var(--text);
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+
+
+nav a:hover{
+
+    color:#e75480;
+
+}
+
+
+
+
+#themeToggle{
+
+    width:45px;
+
+    height:45px;
+
+    border:none;
+
+    border-radius:50%;
+
+
+    background:
+    linear-gradient(
+        135deg,
+        #ff8fb8,
+        #ffb6d9
+    );
+
+
+    color:white;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+}
+
+
+
+#themeToggle:hover{
+
+    transform:
+    rotate(20deg)
+    scale(1.1);
+
+}
+
+
+
+
+
+
+/* ==========================
+   CONTAINER
+========================== */
+
+
+.container{
+
+    width:80%;
+
+    margin:auto;
+
+    padding:70px 0;
+
+}
+
+
+
+
+
+.section-title{
+
+
+    text-align:center;
+
+
+    font-size:40px;
+
+
+    color:#e75480;
+
+
+    margin-bottom:25px;
+
+
+}
+
+
+
+
+
+.container>p{
+
+    font-size:18px;
+
+    line-height:1.7;
+
+}
+
+
+
+
+
+/* ==========================
+   FORM
+========================== */
+
+
+form{
+
+    max-width:650px;
+
+    margin:40px auto;
+
+
+    background:
+    var(--white);
+
+
+    padding:40px;
+
+
+    border-radius:30px;
+
+
+    box-shadow:
+    var(--shadow);
+
+
+    backdrop-filter:blur(10px);
+
+
+}
+
+
+
+
+label{
+
+
+    display:block;
+
+
+    font-weight:600;
+
+
+    color:#e75480;
+
+
+    margin-top:15px;
+
+
+}
+
+
+
+
+
+input,
+select,
+textarea{
+
+
+    width:100%;
+
+
+    padding:14px;
+
+
+    margin-top:8px;
+
+
+    border-radius:15px;
+
+
+    border:2px solid transparent;
+
+
+    background:#fff;
+
+
+    font-size:16px;
+
+
+    outline:none;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+input:focus,
+select:focus,
+textarea:focus{
+
+
+    border-color:#ff8fb8;
+
+
+    box-shadow:
+    0 0 10px rgba(255,143,184,.4);
+
+
+}
+
+
+
+
+
+textarea{
+
+    resize:none;
+
+}
+
+
+
+
+
+/* BUTTON */
+
+
+button.submit{
+
+
+    width:100%;
+
+
+    margin-top:25px;
+
+
+    padding:15px;
+
+
+    border:none;
+
+
+    border-radius:30px;
+
+
+    background:
+    linear-gradient(
+        135deg,
+        #ff8fb8,
+        #2196f3
+    );
+
+
+    color:white;
+
+
+    font-size:18px;
+
+
+    font-weight:bold;
+
+
+    cursor:pointer;
+
+
+    transition:.3s;
+
+
+}
+
+
+
+
+
+button.submit:hover{
+
+
+    transform:
+    translateY(-5px);
+
+
+    box-shadow:
+    0 10px 20px rgba(0,0,0,.2);
+
+
+}
+
+
+
+
+
+
+/* ==========================
+   PREVIEW PHIẾU
+========================== */
+
+
+.preview{
+
+
+    max-width:650px;
+
+
+    margin:30px auto;
+
+
+    background:
+    #fff0f6;
+
+
+    padding:30px;
+
+
+    border-radius:25px;
+
+
+    box-shadow:
+    var(--shadow);
+
+
+
+}
+
+
+
+.preview h3{
+
+
+    text-align:center;
+
+
+    color:#e75480;
+
+
+    font-size:25px;
+
+
+    margin-bottom:20px;
+
+
+}
+
+
+
+
+.preview p{
+
+
+    line-height:1.8;
+
+
+}
+
+
+
+
+
+
+/* ==========================
+   FOOTER
+========================== */
+
+
+footer{
+
+
+    text-align:center;
+
+
+    padding:25px;
+
+
+    background:
+    rgba(255,255,255,.4);
+
+
+    font-weight:600;
+
+
+}
+
+
+
+
+
+/* ==========================
+   RESPONSIVE
+========================== */
+
+
+@media(max-width:900px){
+
+
+header{
+
+
+    flex-direction:column;
+
+
+    gap:15px;
+
+
+}
+
+
+
+
+nav{
+
+
+    flex-wrap:wrap;
+
+
+    justify-content:center;
+
+
+}
+
+
+
+
+.container{
+
+
+    width:90%;
+
+
+}
+
+
+
+
+.section-title{
+
+
+    font-size:32px;
+
+
+}
+
+
+
+form{
+
+
+    padding:25px;
+
+
+}
+
+
+
+}
