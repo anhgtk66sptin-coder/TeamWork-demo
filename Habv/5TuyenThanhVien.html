@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT4Teacher</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="/images/fchoise.jpg">
+    <link rel="stylesheet" href="/CSS/styles.css" />
+    <link rel="stylesheet" href="/CSS/5tuyenthanhvien.css" />
+    <link rel="stylesheet" href="/CSS/foot.css"/>
+    <link rel="stylesheet" href="/CSS/DoiMau.css">
+    <link rel="stylesheet" href="/CSS/search.css"/>
+  </head>
+  <body>
+    <div class="overlay" id="overlay" onclick="toggleMenu()"></div>
+    <header class="navbar">
+      <a href="index.html" class="nav-brand">
+        <img src="/images/fchoise.jpg" alt="Logo" class="logo-img" />
+        <span class="logo-text">IT4Teacher</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="1TrangChu.html">TRANG CHỦ</a></li>
+        <li><a href="2GioiThieu.html">GIỚI THIỆU</a></li>
+        <li><a href="3HoatDong.html">HOẠT ĐỘNG</a></li>
+        <li><a href="4SanPham.html">SẢN PHẨM</a></li>
+        <li><a href="5TuyenThanhVien.html">TUYỂN THÀNH VIÊN</a></li>
+        <li><a href="6HoiDap.html">HỎI ĐÁP</a></li>
+      </ul>
+      <div class="header-right">
+
+        <input
+            type="text"
+            id="searchMember"
+            placeholder="🔍 Tìm nội dung...">
+
+        <button id="themeToggle">
+            <i class="fa-solid fa-moon"></i>
+        </button>
+
+      </div>
+      <button class="hamburger-btn" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </header>
+    <aside class="mobile-menu" id="mobileMenu">
+      <div class="mobile-menu-header">
+        <img src="/images/logoclb.jpg" alt="Logo" class="logo-img" />
+        <button class="close-btn" onclick="toggleMenu()">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="1TrangChu.html" class="active">TRANG CHỦ</a></li>
+        <li><a href="2GioiThieu.html">GIỚI THIỆU</a></li>
+        <li><a href="3HoatDong.html">HOẠT ĐỘNG</a></li>
+        <li><a href="4SanPham.html">SẢN PHẨM</a></li>
+        <li><a href="5TuyenThanhVien.html">TUYỂN THÀNH VIÊN</a></li>
+        <li><a href="6HoiDap.html">HỎI ĐÁP</a></li>
+      </ul>
+    </aside>
+    <section class="tuyen-dung">
+      <div class="container">
+        <div class="content">
+          <h2>Tuyển thành viên</h2>
+          <p class="mo-ta">
+            CLB Lập trình PTIT đang mở đơn tuyển thành viên năm 2026.
+          </p>
+          <p>
+            <strong>Đối tượng:</strong> Sinh viên các ngành Công Nghệ Thông Tin,
+             Sư phạm Tin học và các bạn trẻ có đam mê với lập trình.
+          </p>
+          <p>
+            <strong>Thời gian ứng tuyển:</strong> 10/09/2026 - 24/09/2026
+          </p>
+          <div class="buttons">
+            <a href="https://forms.gle/EobEHZ3daLaqxah69" target="_blank" class="btn btn-ung-tuyen">ỨNG TUYỂN</a>
+            <a href="#" class="btn btn-xem-them">XEM THÊM</a>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="/images/anhnhom1.jpg" alt="CLB Lập trình PTIT">
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-col brand-col">
+            <div class="footer-logo">
+              <img src="/images/fchoise.jpg" alt="Logo" class="logo-img" />
+              <div class="logo-text">
+                <h2>Website câu lạc bộ Tin học</h2>
+                <p>Trường ĐH Tây Bắc</p>
+              </div>
+            </div>
+            <ul class="contact-list">
+              <li>IT4Teachers</li>
+              <li>0816 805 703</li>
+              <li>0819 282 145</li>
+              <li>Giàng Tuấn Anh</li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Chuyên mục</h4>
+            <ul>
+              <li><a href="#">Giới thiệu</a></li>
+              <li><a href="#">Hoạt động</a></li>
+              <li><a href="#">Sản phẩm</a></li>
+              <li><a href="#">Tuyển thành viên</a></li>
+              <li><a href="#">Hỏi đáp</a></li>
+              <li><a href="#">Trang Chủ</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Liên kế</h4>
+            <ul>
+              <li><a href="https://utb.edu.vn/">Trường Đại học Tây Bắc</a></li>
+              <li><a href="https://www.youtube.com/channel/UC8EB7c0E_TS4tpTQwMtv6fw" target="_blank">YouTube</a></li>
+              <li><a href="https://www.facebook.com/share/19etWxd3Pm/?mibextid=wwXIfr" target="_blank">Facebook</a></li>
+              <li><a href="https://github.com/anhgtk66sptin-coder" target="_blank">Github</a></li>
+              <li><a href="https://zalo.me/g/u2xyxccbri2n28fqqncn">Nhóm Zalo</a></li>
+            </ul>
+          </div>
+          <div class="footer-col login-col">
+            <h4>Thành viên</h4>
+            <form class="login-form" action="#" method="POST">
+              <div class="input-box">
+                <i class="fa-regular fa-user"></i>
+                <input type="text" placeholder="Tên đăng nhập" required />
+              </div>
+              <div class="input-box">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" placeholder="Mật khẩu" required />
+              </div>
+              <div class="remember-box">
+                <label>
+                  <input type="checkbox" /> Ghi nhớ mật khẩu
+                </label>
+              </div>
+              <button type="submit" class="btn-login">ĐĂNG NHẬP</button>
+              <div class="login-links">
+                <a href="#">Quên tên đăng nhập?</a>
+                <a href="#">Quên mật khẩu?</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="share-menu">
+        <a href="https://www.facebook.com/profile.php?id=61595303782713"  target="_blank" class="share-item facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a href="https://www.youtube.com/@IT4Teachers"  target="_blank" class="share-item youtube">
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/?hl=en"  target="_blank" class="share-item instagram">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://zalo.me/g/u2xyxccbri2n28fqqncn"  target="_blank" class="share-item zalo">
+            Z
+        </a>
+        <a href="https://github.com/"  target="_blank" class="share-item github">
+            <i class="fa-brands fa-github"></i>
+        </a>
+        <button class="share-button" id="shareButton">
+            <i class="fa-solid fa-share-nodes"></i>
+        </button>
+      </div>
+    </footer>
+    <script src="/JAVASCRIPT/script.js"></script>
+    <script src="/JAVASCRIPT/dieuhuong.js"></script>
+    <script src="/JAVASCRIPT/footer.js"></script>
+    <script src="/JAVASCRIPT/DoiDaoDienVaTimKiemThanhVien.js"></script>
+  </body>
+</html>
