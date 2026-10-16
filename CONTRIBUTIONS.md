@@ -6,18 +6,18 @@
 
 | Thành viên | Tài khoản GitHub | Vai trò | Phiên bản | Công việc | Tệp phụ trách | Issue / PR |
 |---|---|---|---|---|---|---|
-| Lò Thị Hà Giang | [điền] | Nhóm trưởng, quản lý GitHub | v0.2 | Khung chung (header, nav, footer), `index.html` | `index.html` | [điền] |
-| | | | v0.3 | Hệ màu, navbar, hero, footer, nút trong CSS | `css/style.css` | [điền] |
-| | | | v0.4 | Dữ liệu, hàm dùng chung, đếm ngược, render đội thi | `data.js`, `tien-ich.js`, `chung.js`, `doi-thi.js` | [điền] |
-| | | | v1.0 | Sửa ảnh, `alt`, README, quản lý PR và tag | `images/`, `README.md` | [điền] |
-| Phạm Hồng Trang | [điền] | Thành viên | v0.2 | Trang chương trình (thể lệ, bảng khung giờ) | `chuong-trinh.html` | [điền] |
-| | | | v0.4 | Render bảng chương trình, công cụ lập chương trình | `chuong-trinh.js`, `cong-cu-chuong-trinh.js` | [điền] |
-| | | | v1.0 | Nút In chương trình, CSS in ấn, wireframe | `cong-cu-chuong-trinh.js`, `css/style.css`, `docs/wireframe/` | [điền] |
-| Sùng A Đua | [điền] | Thành viên | v0.2 | Khung công cụ và form | `cong-cu.html` | [điền] |
-| | | | v0.4 | Tra cứu đội thi, bảng kết quả (jQuery) | `cong-cu-tra-cuu.js`, `cong-cu-ket-qua.js` | [điền] |
-| Nguyễn Đức Đạt | [điền] | Thành viên | v0.2 | Trang đội thi, hỏi đáp, kiểm tra liên kết | `doi-thi.html`, `hoi-dap.html` | [điền] |
-| | | | v0.4 | Form liên hệ có kiểm tra dữ liệu (jQuery) | `lien-he.js`, `lien-he.html` | [điền] |
-| | | | v1.0 | Kiểm thử, ảnh chụp responsive, `SOURCES.md` | `docs/`, `SOURCES.md` | [điền] |
+| Giàng Tuấn Anh| | Nhóm trưởng, quản lý GitHub | v0.2 | Khung chung (header, nav, footer), `index.html` | `index.html` | [ |
+| | | | v0.3 | Hệ màu, navbar, hero, footer, nút trong CSS | `css/style.css` | |
+| | | | v0.4 | Dữ liệu, hàm dùng chung, đếm ngược, render đội thi | `data.js`, `tien-ich.js`, `chung.js`, `doi-thi.js` | |
+| | | | v1.0 | Sửa ảnh, `alt`, README, quản lý PR và tag | `images/`, `README.md` | |
+| Tòng Thị Thanh Thúy |  | Thành viên | v0.2 | Trang chương trình (thể lệ, bảng khung giờ) | `chuong-trinh.html` |  |
+| | | | v0.4 | Render bảng chương trình, công cụ lập chương trình | `chuong-trinh.js`, `cong-cu-chuong-trinh.js` | |
+| | | | v1.0 | Nút In chương trình, CSS in ấn, wireframe | `cong-cu-chuong-trinh.js`, `css/style.css`, `docs/wireframe/` | |
+| Cầm Huy Tường | [điền] | Thành viên | v0.2 | Khung công cụ và form | `cong-cu.html` | [điền] |
+| | | | v0.4 | Tra cứu đội thi, bảng kết quả (jQuery) | `cong-cu-tra-cuu.js`, `cong-cu-ket-qua.js` | |
+| Bùi Việt Hà |  | Thành viên | v0.2 | Trang đội thi, hỏi đáp, kiểm tra liên kết | `doi-thi.html`, `hoi-dap.html` | |
+| | | | v0.4 | Form liên hệ có kiểm tra dữ liệu (jQuery) | `lien-he.js`, `lien-he.html` |  |
+| | | | v1.0 | Kiểm thử, ảnh chụp responsive, `SOURCES.md` | `docs/`, `SOURCES.md` |  |
 
 ## Hỗ trợ của công cụ AI
 
